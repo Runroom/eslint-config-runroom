@@ -1,0 +1,64 @@
+{
+  "name": "eslint-config-runroom",
+  "description": "Runroom JavaScript Style",
+  "version": "0.0.1",
+  "author": {
+    "name": "Runroom",
+    "url": "https://runroom.es"
+  },
+  "devDependencies": {
+    "eslint": "5.2.0",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "3.8.0",
+    "eslint-plugin-standard": "3.1.0",
+    "tap-spec": "^5.0.0",
+    "tape": "4.9.1"
+  },
+  "homepage": "https://github.com/standard/eslint-config-standard",
+  "keywords": [
+    "JavaScript Standard Style",
+    "check",
+    "checker",
+    "code",
+    "code checker",
+    "code linter",
+    "code standards",
+    "code style",
+    "enforce",
+    "eslint",
+    "eslintconfig",
+    "hint",
+    "jscs",
+    "jshint",
+    "lint",
+    "policy",
+    "quality",
+    "simple",
+    "runroom",
+    "runroom style",
+    "style",
+    "style checker",
+    "style linter",
+    "verify"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "peerDependencies": {
+    "eslint": ">=5.2.0",
+    "eslint-config-airbnb-base": ">=13.0.0",
+    "eslint-plugin-import": ">=2.13.0",
+    "eslint-plugin-node": ">=7.0.1",
+    "eslint-plugin-promise": ">=3.8.0",
+    "eslint-plugin-standard": ">=3.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/standard/eslint-config-standard.git"
+  },
+  "scripts": {
+    "lint": "eslint . --config=eslintrc.json",
+    "test": "npm run lint && tape test/*.js | tap-spec"
+  }
+}
