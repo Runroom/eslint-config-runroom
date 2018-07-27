@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-yarn add --dev eslint-config-runroom
+yarn add --dev @runroom/eslint-config-runroom
 ```
 
 ## Usage
