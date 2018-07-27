@@ -1,4 +1,6 @@
 # eslint-config-runroom
+![Release version](https://img.shields.io/github/release/runroom/eslint-config-runroom.svg)
+[![Build Status](https://travis-ci.org/Runroom/eslint-config-runroom.svg?branch=master)](https://travis-ci.org/Runroom/eslint-config-runroom)
 
 #### An ESLint [Shareable Config](http://eslint.org/docs/developer-guide/shareable-configs) for [JavaScript Runroom Style](https://runroom.es)
 
