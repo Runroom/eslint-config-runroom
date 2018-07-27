@@ -1,5 +1,5 @@
 {
-  "name": "eslint-config-runroom",
+  "name": "@runroom/eslint-config-runroom",
   "description": "Runroom JavaScript Style",
   "version": "0.0.1",
   "author": {
@@ -16,7 +16,7 @@
     "tap-spec": "^5.0.0",
     "tape": "4.9.1"
   },
-  "homepage": "https://github.com/standard/eslint-config-standard",
+  "homepage": "https://github.com/Runroom/eslint-config-runroom",
   "keywords": [
     "JavaScript Standard Style",
     "check",
@@ -55,7 +55,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/standard/eslint-config-standard.git"
+    "url": "git://github.com/Runroom/eslint-config-runroom.git"
   },
   "scripts": {
     "lint": "eslint . --config=eslintrc.json",
