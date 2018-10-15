@@ -18,6 +18,14 @@
     "tap-spec": "^5.0.0",
     "tape": "4.9.1"
   },
+  "peerDependencies": {
+    "eslint": "5.2.0",
+    "eslint-config-airbnb-base": "13.0.0",
+    "eslint-plugin-import": "2.13.0",
+    "eslint-plugin-node": "7.0.1",
+    "eslint-plugin-promise": "3.8.0",
+    "eslint-plugin-standard": "3.1.0"
+  },
   "homepage": "https://github.com/Runroom/eslint-config-runroom",
   "keywords": [
     "JavaScript Standard Style",
@@ -47,14 +55,6 @@
   ],
   "license": "MIT",
   "main": "index.js",
-  "peerDependencies": {
-    "eslint": ">=5.2.0",
-    "eslint-config-airbnb-base": ">=13.0.0",
-    "eslint-plugin-import": ">=2.13.0",
-    "eslint-plugin-node": ">=7.0.1",
-    "eslint-plugin-promise": ">=3.8.0",
-    "eslint-plugin-standard": ">=3.1.0"
-  },
   "repository": {
     "type": "git",
     "url": "git://github.com/Runroom/eslint-config-runroom.git"
