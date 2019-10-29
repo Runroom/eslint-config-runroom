@@ -4,54 +4,34 @@
   "version": "0.1.1",
   "author": {
     "name": "Runroom",
-    "url": "https://runroom.es"
+    "url": "https://runroom.com"
   },
   "dependencies": {
-    "eslint": "6.0.1",
-    "eslint-config-airbnb-base": "13.2.0",
-    "eslint-plugin-import": "2.18.0",
-    "eslint-plugin-node": "9.1.0",
+    "eslint": "6.6.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-node": "10.0.0",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.0"
+    "eslint-plugin-standard": "4.0.1"
   },
   "devDependencies": {
-    "tap-spec": "^5.0.0",
+    "tap-spec": "5.0.0",
     "tape": "4.11.0"
   },
   "peerDependencies": {
-    "eslint": "6.0.1",
-    "eslint-config-airbnb-base": "13.2.0",
-    "eslint-plugin-import": "2.18.0",
-    "eslint-plugin-node": "9.1.0",
+    "eslint": "6.6.0",
+    "eslint-config-airbnb-base": "14.0.0",
+    "eslint-plugin-import": "2.18.2",
+    "eslint-plugin-node": "10.0.0",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.0"
+    "eslint-plugin-standard": "4.0.1"
   },
   "homepage": "https://github.com/Runroom/eslint-config-runroom",
   "keywords": [
-    "JavaScript Standard Style",
-    "check",
-    "checker",
-    "code",
-    "code checker",
-    "code linter",
-    "code standards",
-    "code style",
-    "enforce",
     "eslint",
     "eslintconfig",
-    "hint",
-    "jscs",
-    "jshint",
-    "lint",
-    "policy",
-    "quality",
-    "simple",
     "runroom",
-    "runroom style",
-    "style",
-    "style checker",
-    "style linter",
-    "verify"
+    "runroom style"
   ],
   "license": "MIT",
   "main": "index.js",
@@ -64,6 +44,6 @@
     "test": "npm run lint && tape test/*.js | tap-spec"
   },
   "engines": {
-    "node": ">=8.11.3"
+    "node": ">=10.x"
   }
 }
