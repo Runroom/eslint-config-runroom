@@ -6,22 +6,17 @@
     "name": "Runroom",
     "url": "https://runroom.com"
   },
-  "devDependencies": {
+  "dependencies": {
     "eslint": "6.6.0",
     "eslint-config-airbnb-base": "14.0.0",
     "eslint-plugin-import": "2.18.2",
     "eslint-plugin-node": "10.0.0",
     "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.1",
+    "eslint-plugin-standard": "4.0.1"
+  },
+  "devDependencies": {
     "tap-spec": "5.0.0",
     "tape": "4.11.0"
-  },
-  "peerDependencies": {
-    "eslint": "^5.16.0 || >=6.6.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-node": "10.0.0",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.1"
   },
   "homepage": "https://github.com/Runroom/eslint-config-runroom",
   "keywords": [
