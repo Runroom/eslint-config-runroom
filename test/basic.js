@@ -1,5 +1,5 @@
 const test = require('tape');
-const config = require('../');
+const config = require('..');
 
 function isObject(obj) {
   return typeof obj === 'object' && obj !== null;
