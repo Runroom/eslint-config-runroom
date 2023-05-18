@@ -1,22 +1,22 @@
 {
   "name": "@runroom/eslint-config-runroom",
   "description": "Runroom JavaScript Style",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "author": {
     "name": "Runroom",
     "url": "https://runroom.com"
   },
   "dependencies": {
-    "eslint": "6.8.0",
-    "eslint-config-airbnb-base": "14.1.0",
-    "eslint-plugin-import": "2.20.2",
+    "eslint": "^8.40.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5",
     "eslint-plugin-node": "11.1.0",
-    "eslint-plugin-promise": "4.2.1",
-    "eslint-plugin-standard": "4.0.1"
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-standard": "^5.0.0"
   },
   "devDependencies": {
     "tap-spec": "5.0.0",
-    "tape": "4.13.2"
+    "tape": "^5.6.3"
   },
   "homepage": "https://github.com/Runroom/eslint-config-runroom",
   "keywords": [
@@ -36,6 +36,7 @@
     "test": "npm run lint && tape test/*.js | tap-spec"
   },
   "engines": {
-    "node": ">=10.x"
+    "node": ">=10.x",
+    "yarn": "YARN NO LONGER USED - use npm instead."
   }
 }
