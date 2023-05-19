@@ -7,7 +7,7 @@
 ## Install
 
 ```bash
-yarn add --dev @runroom/eslint-config-runroom
+npm install --dev @runroom/eslint-config-runroom
 ```
 
 ## Usage
@@ -20,7 +20,7 @@ official ESLint website.
 To use the JavaScript Runroom Style shareable config, first run this:
 
 ```bash
-yarn install
+npm ci
 ```
 
 Then, add this to your .eslintrc file:

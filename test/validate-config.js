@@ -2,15 +2,22 @@ const eslint = require('eslint');
 const test = require('tape');
 
 test('load config in eslint to validate all rule syntax is correct', t => {
-  const { CLIEngine } = eslint;
+  const { ESLint } = eslint;
 
-  const cli = new CLIEngine({
+  const cli = new ESLint({
     useEslintrc: false,
-    configFile: 'eslintrc.json'
+    overrideConfigFile: 'eslintrc.json'
   });
 
-  const code = 'const foo = 1;\nconst bar = () => {};\nbar(foo);\n';
+  const codeExample = 'const c = 1;\nfunction add(a, b) {\n  return a + b;\n}\n\nadd(c, 2);\n';
 
-  t.equal(cli.executeOnText(code).errorCount, 0);
-  t.end();
+  async function lintText(code) {
+    const results = await cli.lintText(code);
+    results.forEach(result => {
+      t.equal(result.errorCount, 0);
+    });
+    t.end();
+  }
+
+  lintText(codeExample);
 });
