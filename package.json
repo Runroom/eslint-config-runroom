@@ -36,7 +36,7 @@
     "test": "npm run lint && tape test/*.js | tap-spec"
   },
   "engines": {
-    "node": ">=10.x",
+    "node": ">=16",
     "yarn": "YARN NO LONGER USED - use npm instead."
   }
 }
